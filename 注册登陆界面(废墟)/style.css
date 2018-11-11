@@ -1,0 +1,114 @@
+/*********    全局    **********/
+header {
+	width: 100%;
+	height: 580px;
+	overflow: hidden;
+	background: url("images/tooopen.jpg") no-repeat center center;
+	margin: 0 auto;
+}
+header div {
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+/*********    top    **********/
+header .top {
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+header .top h1 {
+	text-shadow: 2px 3px 4px gray;
+	font-family: 
+}
+/**********   tfrom  **********/
+header .tform {
+	
+}
+header .tform h2 {
+	text-shadow: 2px 2px 3px gray;
+}
+header .tform input {	
+	margin-top: 20px;
+	padding: 0;
+	border: 3px solid gary;
+	height: 20px;
+}
+
+header form {
+	background-color: white;
+	
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
+	opacity:0.7;
+}
+header form i {
+	display: block;
+	padding: 0;
+	margin: 0 0 0 0;
+	width: 15px;
+	height: 15px;
+	position: relative;
+}
+header form .odiv {
+	background-color: darkgray;
+	box-shadow: 4px 4px 5px gray;
+	width: 300px;
+	height: 200px;
+/*	opacity:0.1\8;*/
+}
+/*
+header form .div1 {
+	background-color: white;
+	box-shadow: 2px 3px 4px black;
+	width: 300px;
+	box-shadow: 2px 3px 4px black;	
+	height: 60px;
+	margin: 0 auto;
+}
+*/
+header form input {
+	border: none;
+	box-shadow: 2px 2px 2px black;
+	outline: none;
+}
+header form input:active {
+	border: 1px solid gray;
+}
+header form input:focus {
+	border: 1px solid gray;
+}
+/*********   button  ***********/
+
+header button {
+	display: block;
+	width: 80px;
+	background-color: white;
+	border: 1px solid gray;
+	box-shadow: 3px 3px 2px gray;
+	position: relative;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	outline: none;
+}
+header button:hover {
+	cursor:pointer
+}
+header button:active {
+	border: 2px solid gray;
+}
+header #bt {
+	width: 194px;
+	margin-top: 30px;
+}
+header #bt .login {
+	float: left;
+}
+header #bt .registered {
+	float: right;
+}
+
+
+
+/*******   注册表(none)   *********/

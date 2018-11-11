@@ -1,0 +1,54 @@
+header {width: 660px; height: 95px; /*background-color: gray;*/ margin: 0 auto;}
+textarea {font-size: 12px;}
+.top {float: left; width: 320px; height: 45px; margin: 25px 35px ;padding: 0;}
+.top_left {display: block; width: 130px; font-size: 30px; border-right: 2px solid #254665; color: #254665; float: left;}
+.top_right {width: 175px; height: 45px; float: right; color: #254665;}
+.top_right .toptop {display: block; margin-top: 2px; font-size: 12px;}
+.top_right .domdom {display: block; margin-top: -10px; font-size: 18px;}
+.top_img>img {width: 33px; margin: 28px 10px;}
+.top_img {width: 200px; margin-left: 28px; float: left;}
+.dom_img {margin-bottom: 10px;}
+
+main {width: 660px; height: 1200px; margin: 0 auto;}
+main .message_img {display: block; margin: 65px 0 0 37px; padding: 0;}
+.message>input {display: block; margin: 0 10px 10px; border: none;}
+.message .your_name {font-size: 22px; margin: 20px 0 0 17px;}
+.message .presentation {font-size: 12px; margin: 0 0 10px 17px;}
+.message {width: 580px;height: 140px;border: 2px solid #254665; margin: -7px 0 0 49px; border-right: none; border-bottom: none;}
+.message_0 {margin-left: 17px;}
+.message_0>input {margin-top: 20px; text-align: center; margin-left: -3px; border: none;border-right: 1.3px solid #254665;}
+
+main .profession>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.profession .job_wanted {width: 580px; height: 110px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none; border-bottom: none;}
+.profession .job_wanted ul {display: block; list-style-type: none;}
+.profession .job_wanted li {float: left; margin: 15px 15px 0 -10px;}
+.profession .job_wanted input {border: none; margin-left: 24px; font-size: 12px;}
+.profession .job_wanted input:focus {outline: none;}
+.profession .job_wanted img {display: inline;width: 20px; position: absolute; }
+
+main .experience>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.experience .backdrop {width: 580px; height: 140px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none; border-bottom: none;}
+.experience .rankin1g {width: 515px; height: 38px;}
+.experience .backdrop input {margin: 28px 0 0 20px; font-size: 12px; border: none;}
+.experience .backdrop .school {margin-left: 60px;}
+.experience .backdrop .specialty {margin-left: 80px;}
+.experience textarea {position: absolute;margin: -75px 0 0 70px; border: none;}
+
+main .work>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.work .concreteness {width: 580px; height: 145px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none; border-bottom: none;}
+.work .concreteness input {margin: 35px 0 0 15px; border: none;}
+.work textarea {position: absolute;margin: -75px 0 0 65px; border: none;}
+
+main .skill>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.skill .skill_square {width: 580px; height: 110px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none; border-bottom: none;}
+.skill_square input {margin: 35px 0 0 25px; text-align: center; background-color: #f5fdfb; border: 1px dashed #d6d6d6;}
+
+main .interest>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.interest .interest_square {width:580px; height: 110px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none; border-bottom: none;}
+.interest_square input {margin: 35px 0 0 25px; text-align: center; background-color: #f5fdfb; border: 1px dashed #d6d6d6;}
+
+main .appraise>img {display: block; margin: 0 0 0 37px; padding: 0;}
+.appraise .self_appraise {width: 580px; height: 100px; margin: -7px 0 0 50px; border: 2px solid #254665; border-right: none;/* border-bottom: none;*/}
+.self_appraise textarea {position: absolute; margin: 25px; border: none;}
+
+

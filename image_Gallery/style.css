@@ -1,12 +1,40 @@
-html {margin: 0; padding: 0;}
-body {width: 1260px; height: 600px;}
-.picT {height: 120px;}
-.picT h1 {display: block; text-align: center; }
-.picT ul {display: block; height: 50px; list-style-type: none;  text-align: center; background-color: #B2B0B0; padding: 0;}
-.picT .Sli {float: left; background-color: #003366; display: block; width: 104px; height: 50px; line-height: 50px; border-right: 1px solid #3399CC;}
-.Ta {display: block; text-decoration: none; color: #FFF; padding: 0 10px 0 10px;}
-.Ta:hover {background-color: #cccccc; font-size: 20px;}
+* {
+	margin: 0;
+	padding: 0;
+}
+#img_ku {
+	list-style-type: none;
+	display: flex;
+	width: 300px;
+	height: auto;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	float: left;
+	margin: 15% 0 0 10%;
+}
+#img_ku li {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+#img_ku>li>a {
+	text-decoration: none;
+	color: #5E5E5E;
+	text-shadow: 1px 1px 1px;
+	font-size: 20px;
+}
+#img_ku li a:hover {
+	font-size: 23px;
+}
 
-.picR {height: 587px;}
-.picR h1 {text-align: center;}
-.picR img {display: block; margin: 0 auto;}
+#fu {
+	position: absolute;
+	float: right;
+	width: 145px;
+	height: auto;
+	margin: 15% 10%;
+	box-shadow: 2px 2px 3px 2px;
+}
+

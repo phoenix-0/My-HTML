@@ -1,11 +1,15 @@
-//需求:  使a标签图片的链接替换到当前页面上的图片中
-//步骤: 1.获取a标签href的链接
-//		2.获取当前图片占位符的链接
-//		3.在点击a标签时使占位符的链接替换为a标签的href
-function showPic(thisPic) {
-	// body...
-	var pic_href = thisPic.getAttribute("href");
-	var placeholder = document.getElementById('placeholder');
+//步骤:
+//	1.获取图片框的src属性,用于进行图片切换
+//	2.获取生肖按钮的href值
+//	3.当点击生肖按钮时,将其href值给予图片框的src值.
 
-	placeholder.setAttribute("src",pic_href);
+var sXiao = document.getElementsByTagName('a');
+var tKu = document.getElementById('fu');
+
+for(let i=0; i<sXiao.length; i++){
+	sXiao[i].onclick = function(){
+		var hScr = sXiao[i].getAttribute('href');
+		tKu.setAttribute('src',hScr);
+		return false;
+	}
 }

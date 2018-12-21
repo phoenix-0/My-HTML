@@ -4,33 +4,24 @@
 	<title>十二生肖</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./style.css">
-	<script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
-	<div class="picT">
-		<h1>十二生肖图片</h1>
-		<ul>		
-			<!-- onclick对此元素赋予一个点击执行的事件,将执行此showpic函数.而this参数指定的是本元素.
-				 return false的意义为: 取消此元素的默认行为,在本元素中,取消的是a标签的页面跳转命令. 
-			-->
-			<li class="Sli"><a class="Ta" href="images/鼠.jpg" title="子鼠" onclick="showPic(this); return false;">鼠</a></li>
-			<li class="Sli"><a class="Ta" href="images/牛.jpg" title="丑牛" onclick="showPic(this); return false;">牛</a></li>
-			<li class="Sli"><a class="Ta" href="images/虎.jpg" title="寅虎" onclick="showPic(this); return false;">虎</a></li>
-			<li class="Sli"><a class="Ta" href="images/兔.jpg" title="卯兔" onclick="showPic(this); return false;">兔</a></li>
-			<li class="Sli"><a class="Ta" href="images/龙.jpg" title="辰龙" onclick="showPic(this); return false;">龙</a></li>
-			<li class="Sli"><a class="Ta" href="images/蛇.jpg" title="巳蛇" onclick="showPic(this); return false;">蛇</a></li>
-			<li class="Sli"><a class="Ta" href="images/马.jpg" title="午马" onclick="showPic(this); return false;">马</a></li>
-			<li class="Sli"><a class="Ta" href="images/羊.jpg" title="未羊" onclick="showPic(this); return false;">羊</a></li>
-			<li class="Sli"><a class="Ta" href="images/猴.jpg" title="申猴" onclick="showPic(this); return false;">猴</a></li>
-			<li class="Sli"><a class="Ta" href="images/鸡.jpg" title="酉鸡" onclick="showPic(this); return false;">鸡</a></li>
-			<li class="Sli"><a class="Ta" href="images/狗.jpg" title="戌狗" onclick="showPic(this); return false;">狗</a></li>
-			<li class="Sli"><a class="Ta" href="images/猪.jpg" title="亥猪" onclick="showPic(this); return false;">猪</a></li> 
-		</ul>
-	</div>
-	<div class="picR">
-		<h1 id="description">Bbbbbbbbb</h1>
-		<img src="./images/十二生肖.jpg" id="placeholder" alt="my image gallery">
-	</div>
-</script>
+	<ul id="img_ku">
+		<li><a href="images/鼠.gif">鼠</a></li>
+		<li><a href="images/牛.gif">牛</a></li>
+		<li><a href="images/虎.gif">虎</a></li>
+		<li><a href="images/兔.gif">兔</a></li>
+		<li><a href="images/龙.gif">龙</a></li>
+		<li><a href="images/蛇.gif">蛇</a></li>
+		<li><a href="images/马.gif">马</a></li>
+		<li><a href="images/羊.gif">羊</a></li>
+		<li><a href="images/猴.gif">猴</a></li>
+		<li><a href="images/鸡.gif">鸡</a></li>
+		<li><a href="images/狗.gif">狗</a></li>
+		<li><a href="images/猪.gif">猪</a></li>
+	</ul>
+	
+	<img src="images/十二生肖.jpg" id="fu">
+	<script type="text/javascript" src="./index.js"></script>
 </body>
 </html>
